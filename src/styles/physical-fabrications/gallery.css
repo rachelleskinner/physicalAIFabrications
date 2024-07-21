@@ -1,0 +1,26 @@
+@media (max-width: 1100px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.titleText{
+    color: #213E53;
+    font-weight: 600;
+    font-size: 3ch;
+    text-align: center;
+}
+.subHeaderText{
+    font-weight: 600;
+    font-size: 3ch;
+    color: #597487;
+}
+@media (max-width: 995px) {
+    .subHeaderText{
+        font-size: 2ch;
+    }
+}
+.titleText, a{
+    color: #213E53;
+    text-decoration: none;
+}

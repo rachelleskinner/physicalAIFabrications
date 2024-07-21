@@ -1,0 +1,245 @@
+---
+import { Image } from 'astro:assets';
+import 'bootstrap/dist/css/bootstrap.css'
+import '../../styles/physical-fabrications/global.css';
+import '../../styles/physical-fabrications/project.css';
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/x-icon" href="/fabricationImgs/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Project 2 - Collage</title>
+		<link href="css/hover-min.css" rel="stylesheet">
+		<!--Bootstrap Stylesheet -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	</head>
+	<body>
+		<!--Header -->
+		<header class="text-center">
+			<div class="container">
+				<div class="row mt-5 mb-2 justify-content-between align-items-center">
+					<div class="col-md-3 buttonSize">
+						<a href="/physical-fabrications/project-gallery" class="d-flex align-items-center">
+							<div class="me-3" style="width:10ch;">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="#597487" viewBox="0 0 8 8">
+									<path d="M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z"/>
+								</svg>
+							</div>
+							<div>
+								<Image src="/fabricationImgs/fontHeaders/home.png" class="img-fluid" width="700" height="200" alt=""></Image>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col">
+						<Image class="img-fluid mt-3" src="/fabricationImgs/fontHeaders/collageHeader.png" width="1000" height="150" alt="Collage in a playful, coloful, magazine cut-out letter font">
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--Header END-->
+		<br>
+        <br>
+		
+
+
+		<div class="container">
+			<!--Physical Fabrication -->
+			<h2 class="subTitle mb-5">Physical Fabrication</h2>
+			<div class="row">
+			<!-- Carousel-->
+			<div class="col-md-6">
+				<div id="myCarousel" class="carousel slide">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<Image src="/fabricationImgs/p2-collage/FullViewScattered.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
+						</div>
+						<div class="carousel-item">
+							<Image src="/fabricationImgs/p2-collage/FullViewTogether.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
+						</div>
+						<div class="carousel-item">
+							<Image src="/fabricationImgs/p2-collage/TopDetail.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
+						</div>
+						<div class="carousel-item">
+							<Image src="/fabricationImgs/p2-collage/BottomDetail.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
+						</div>
+						<div class="carousel-item">
+							<Image src="/fabricationImgs/p2-collage/LeftDetail.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
+						</div>
+						<div class="carousel-item">
+							<Image src="/fabricationImgs/p2-collage/RightDetail.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
+						</div>
+						<div class="carousel-item">
+							<video class="d-block mx-auto w-75 img-fluid" width="400" height="500" controls>
+								<source src="/fabricationImgs/p2-collage/collageMovement.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							</video>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+			<!--Physical Fabrication Details -->
+				<div class="col-md-6">
+					<p class="pText"><b style="color: #597487;">Title: </b><em>You're Lost Little Girl</em></p>
+					<br>
+					<p class="pText"><b style="color: #597487;">Medium: </b>Materials of found objects on used cardboard. LP vinyl record, paper bag, magazine scraps, construction paper, additional cardboard pieces, book page, clay, and white string.</p>
+					<br>
+					<p class="pText"><b style="color: #597487;">Dimensions: </b>13 3/16 x 10 1/8" (Entire canvas, including top and bottom record pieces hanging off inital cardboard)</p>
+					<br>
+					<p class="pText"><b style="color: #597487;">Keywords: </b>Connection, Authenticity, Music, Counterculture</p>
+					<br>
+					<p class="pText"><b style="color: #597487;">About: </b>A collage with a play on gravity, including a representation of breaking through media stereotypes among women detailing other aspects of the different perspectives of connection.</p>
+				</div>
+			</div>
+			<br>
+			<hr>
+
+			<!--AI Fabrication -->
+			<h2 class="subTitle my-5">AI Fabrication</h2>
+			<div class="row my-5">
+				<!--AI Fabrication Details -->
+				<div class="col-md-12">
+					<!-- AI Ouput Image-->
+					<div class="col-md-6 float-end ms-3">
+						<h2 class="pText"><b style="color: #597487;">DALL-E 3 Output</b></h2>
+						<Image src="/fabricationImgs/p2-collage/AIOutputCollageKeywords.png" class="img-fluid" width="600" height="600" alt=""></Image>
+						<p class="pText text-center mt-1"><b style="color: #597487;">Prompt: </b><em>A scrapbook collage of found objects that evokes connection, authenticity, music, and counterculture.</em></p>
+					</div>
+
+					<h2 class="pText"><b style="color: #597487;">AI & Physical Comparison Statement</b></h2>
+					<p class="pText" style="text-indent: 30px;">
+						<b>The AI output includes clutters of smaller found objects that each have meaning in themselves rather than my physical fabrication that uses fewer, larger found objects and focuses more on the juxtaposition.</b>
+						However, both works include similar representations such as records to evoke music, people to convey connection, random objects you would normally throw away to symbolize authenticity, and specific symbols to represent counterculture.
+						I also found the top-left and bottom-right images to have similar collage bases to my physical collage like cardboard or the back of a record cover.
+						I like each version separately as they convey keywords in their own ways so I feel like there is not anything I wish I included in my physical fabrication. 
+						But this does give me ideas for future projects like the artist's book and other free-time personal collages such as pin buttons, cassettes, peace symbols, and psychedelic colors and imagery.
+					</p>
+					<p class="pText" style="text-indent: 30px;">
+						My collage is more compelling to me as I personally have a deeper connection with it since I constructed it.
+						This also includes the juxtaposition of my objects conveying the keywords that intertwine with each other as I draw on larger topics such as experiences to convey these key terms.
+						<b>The AI images heavily touch on the aspects of the key terms in a surface-level way without including in-depth interpretations or referring to other experiences or things to convey these ideas.</b>
+						I found the bottom-right image to be my favorite though. Aside from the deformed words, this includes a lot of textures and objects I didn’t consider in my fabrication such as flowers, vivid colors, cassettes, keychains, cars, representations of music icons, and more.
+						This image focuses more on the found objects part of the prompt too which I admire to symbolize the key terms.
+					</p>
+					<p class="pText" style="text-indent: 30px;">
+						<b>When constructing my fabrication I thought a lot about how to make my keywords interact with each other, focusing on certain events or experiences that have an underlying tone of the representing term.
+						The AI prompt does the opposite and includes items or symbols that reflect the keywords rather than having them intertwine or think more heavily about the piece.</b>
+						I feel like the time spent making the collage has more of an impact than asking generative AI to do it for you.
+						The physical collage allows you to have total creative freedom to do whatever you want while actively watching and creating the fabrication as it progresses.
+						But it is also interesting to see what the generative AI comes up with without your personal knowledge to gather ideas and takeaways from but it doesn’t feel the same since it wasn’t a human creating it and going through the process of what to include and what not to include and what to put where, etc. 
+						However, the use of AI does take a toll on creators as they are facing the hardships of the impact of AI right now while it’s on the rise. 
+						As generative AI begins to grow, I believe we will start to appreciate creators more and artists will become more valuable, notable, and popular as we continue to seek that sense of deeper meaning and experiences with the art pieces both for the viewer and artists.
+						<b>Although we are seeing the rise of AI right now, I feel there will be a climax that will result in nostalgia for artists and designers, with the idea of creating something physically for that personal experience and connection that isn’t quite the same with AI.</b>
+					</p>
+				</div>
+			</div>
+			<hr>
+
+			<div class="row">
+				<div class="col-md-12">
+					<!-- Single column for text -->
+					<h2 class="subTitle my-5">Intentionality & Design Statement </h2>
+					<p class="pText" style="text-indent: 30px;">
+						My chosen keywords are Connection, Authenticity, Music, and Counterculture. 
+						I planned to have a portion of my collage rely on gravity using strings attached to clay heads from a connecting center point on the base of the collage.
+						The different people's heads are randomized, to symbolize the differences among humans from different backgrounds. 
+						<b>When viewed horizontally, the connection among people is dispersed, they are not personally connected, but the viewer can still see the underlying connection among the attached strings to a unified point. 
+						When viewed vertically, the random heads are conjoined at the center of a bowl with a spoon to further convey the desire for personal connection among the community. </b>
+						This conveys my keyword, connection, and how we are all connected when viewed from a sufficiently macro-level perspectives. 
+						Even though at certain perspectives like the dispersed view, they personally cannot see the connection between each other for a multitude of reasons, but the viewer can see the underlying connection from the connected point. 
+						Then there are other perspectives like the conjoined view, they can find things in common or relations to personally see the connection among each other like the viewer has seen the entire time with the underlying stringed point, symbolizing the broader emotion and view of connection and unity including how we all are on a mission to unconsciously foster connections as humans.
+					</p>
+					<p class="pText" style="text-indent: 30px;">
+						These elements lead to the next keyword, authenticity, as the torn-book page behind the gathered heads is from Jesmyn Ward’s <em>Salvage The Bones</em>, specifically the FAQ portion in the back of the book discussing the author’s topic choice. 
+						<b>The book details the experiences of living in a natural disaster like a hurricane and represents genuine moments of vulnerability with experiences that occur at certain times to certain people randomly.</b> 
+						It symbolizes authenticity as unexpected personal experiences sometimes go unnoticed publicly or “not bad as it seems” linking back to the unified clay heads gathered in the personal experiences. 
+						More authenticity is found through the construction of the collage with the base being the bare backing of a record cover with an overlay of crumpled paper and pieces hanging off the collage’s base. 
+						Additionally, the large head of a woman is pictured juxtapositioned with a cameraman representing the disencouragement of authenticity in media including gender biases and objectification. 
+						<b>In history and recent times, media attempts to capture picture-perfect experiences or people that are commonly seen more with women than men which has continued to be a problem with personal issues evolving into societal issues especially now with the rise of social media algorithms and AI. </b>
+						Accompanying the woman are details of broken pieces, some with facial features to evoke “breaking through” media stereotypes and that picture-perfect idea with women’s looks and showing an authentic self instead. 
+						The camera captures elements of flashes, including a second meaning of flashes of destruction, to emphasize the media’s varied effects on authenticity.
+					</p>
+					<p class="pText" style="text-indent: 30px;">
+						This ties into the next keyword, music, as it also evokes connection and the media’s view of authenticity. 
+						Pieces of a record are present to evoke this term including the collage’s base being the back of a record cover. 
+						<b>Music has always been a connection for people for as long as it has been around as it brings people together as an art form with a message, relating to authenticity. </b>
+						This also ties into the idea of the media’s negative view of authenticity by trying to censor certain things that can sometimes be surpassed in creative ways through the form of music. 
+						<b>“She get high” is an example of this and how this was censored in vinyl records of The Doors’ debut album in the song, Break on Through to the Other Side. </b>
+						This also connects back to the 1967 showing of The Ed Sullivan Show, with the producers asking The Doors’ lead singer, Jim Morrison not to say higher in the lyrics, “Girl, we couldn’t get much higher” as they interpreted it being a reference to drugs. 
+						Despite the comment, Morrison emphasized the word anyway, marking history in media and the show. 
+						This comes full circle relating to the final key term, Counterculture. 
+						The idea of counterculture reached its peak during the '60s and '70s evoking rebellion against social norms with The Doors being one of the significant faces of this movement. 
+						I chose these specific words as the word “high” sparks confusion and shock. 
+						<b>This word also has multiple meanings including drugs but also the idea of happiness and higher consciousness which evokes the key terms of authenticity and counterculture as nothing should be off-limits despite personal beliefs. </b>
+						The placement of found objects symbolizes new horizons with the yellow and orange sun as the center point of connection coming over the record-like earth that contains the soup of people and genuine experiences. 
+						There is also the large presence of overarching ideas that should be brought to light like the media’s view of authenticity and the concept of escaping that.
+					</p>
+					<p class="pText" style="text-indent: 30px;">
+						I found challenges during the construction of the collage, as I enjoyed the objects I found but found it hard to incorporate with my initial idea of the clay heads attached with strings. 
+						I also knew I wanted to include words in some way but unsure of what exactly. 
+						After countless layout drafts and listening to music to find certain words or lyrics, I finally found a layout I was satisfied with that tied all my keywords together. 
+						<b>I used to do small collages in journals in high school after finding a collage/scrapbooking community on social media but have never done a collage for a class project or with evoking certain keywords. </b>
+						I planned to have at least 3-4 working sessions for this part of the assignment as I knew it might take some time including the time spent not working on it to “sleep” on my ideas. 
+						This allowed me to have plenty of time to find, cut, decide, and assemble. 
+						<b>It felt therapeutic and fun to get messy with an art project but occasionally frustrating as I set standards for myself and wanted everything to work out. </b>
+						Overall, I am very pleased with the final product as I feel it evokes each of my keywords intertwining with each other with also conveying various emotions of confusion but unification among objects and people.
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<!--Next/Prev Button -->
+		<div class="container">
+			<div class="row mt-5 justify-content-between align-items-center">
+				<div class="col-md-3 buttonSize">
+					<a href="/physical-fabrications/project1-keywords" class="d-flex align-items-center">
+						<div class="w-25 me-3">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="#597487" viewBox="0 0 8 8">
+								<path d="M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z"/>
+							</svg>
+						</div>
+						<div>
+							<Image src="/fabricationImgs/fontHeaders/prev.png" class="img-fluid" width="700" height="200" alt=""></Image>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 buttonSize ">
+					<a href="/physical-fabrications/project3-artist-book" class="d-flex align-items-center">
+						<div>
+							<Image src="/fabricationImgs/fontHeaders/next.png" class="img-fluid" width="700" height="200" alt=""></Image>
+						</div>
+						<div class="w-25 ms-3">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="#597487" viewBox="0 0 8 8">
+								<path d="M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z"/>
+							</svg>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--Next/Prev Button END -->
+
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="container">
+            <p>&copy; Rachell Skinner 2024</p>
+        </div>
+    </footer>
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
